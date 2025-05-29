@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../study/footer/footer.css" />
-    <link rel="stylesheet" href="../study/header/header.css" />
+    <link rel="stylesheet" href="../footer/footer.css" />
+    <link rel="stylesheet" href="../header/header.css" />
 
     <title>Document</title>
   </head>
@@ -19,7 +19,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", async function () {
         try {
-          const res = await fetch("../study/footer/footer.html");
+          const res = await fetch("../footer/footer.html");
           if (!res.ok) {
             throw new Error("오류가 났습니다.");
           }
@@ -33,7 +33,7 @@
 
       document.addEventListener("DOMContentLoaded", async function () {
         try {
-          const res = await fetch("../study/header/header.html");
+          const res = await fetch("../header/header.html");
           if (!res.ok) {
             throw new Error("오류가 났습니다.");
           }
@@ -46,7 +46,7 @@
       });
       document.addEventListener("DOMContentLoaded", async function () {
         try {
-          const res = await fetch("../study/aside/index.html");
+          const res = await fetch("../aside/index.html");
           if (!res.ok) {
             throw new Error("오류가 났습니다.");
           }
