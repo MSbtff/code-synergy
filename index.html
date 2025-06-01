@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../study/footer/footer.css" />
-    <link rel="stylesheet" href="../study/header/header.css" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../study/footer/footer.css" />
+		<link rel="stylesheet" href="../study/header/header.css" />
 
-    <title>Document</title>
-  </head>
-  <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer>
-      <div id="footer-container"></div>
-    </footer>
+		<title>Document</title>
+	</head>
+	<body>
+		<header></header>
+		<nav></nav>
+		<main></main>
+		<footer>
+			<div id="footer-container"></div>
+		</footer>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", async function () {
-        try {
-          const res = await fetch("../study/footer/footer.html");
-          if (!res.ok) {
-            throw new Error("오류가 났습니다.");
-          }
+		<script>
+			document.addEventListener("DOMContentLoaded", async function () {
+				try {
+					const res = await fetch("../study/footer/footer.html");
+					if (!res.ok) {
+						throw new Error("오류가 났습니다.");
+					}
 
-          const footerHTML = await res.text();
-          document.getElementById("footer-container").innerHTML = footerHTML;
-        } catch (error) {
-          console.error("footer 로드 실패", error);
-        }
-      });
+					const footerHTML = await res.text();
+					document.getElementById("footer-container").innerHTML = footerHTML;
+				} catch (error) {
+					console.error("footer 로드 실패", error);
+				}
+			});
 
-      document.addEventListener("DOMContentLoaded", async function () {
-        try {
-          const res = await fetch("../study/header/header.html");
-          if (!res.ok) {
-            throw new Error("오류가 났습니다.");
-          }
+			document.addEventListener("DOMContentLoaded", async function () {
+				try {
+					const res = await fetch("../study/header/header.html");
+					if (!res.ok) {
+						throw new Error("오류가 났습니다.");
+					}
 
-          const headerHTML = await res.text();
-          document.querySelector("nav").innerHTML = headerHTML;
-        } catch (error) {
-          console.error("header 로드 실패", error);
-        }
-      });
-      document.addEventListener("DOMContentLoaded", async function () {
-        try {
-          const res = await fetch("../study/aside/index.html");
-          if (!res.ok) {
-            throw new Error("오류가 났습니다.");
-          }
+					const headerHTML = await res.text();
+					document.querySelector("nav").innerHTML = headerHTML;
+				} catch (error) {
+					console.error("header 로드 실패", error);
+				}
+			});
+			document.addEventListener("DOMContentLoaded", async function () {
+				try {
+					const res = await fetch("aside/index.html"); // 경로 수정
+					if (!res.ok) {
+						throw new Error("오류가 났습니다.");
+					}
 
-          const asideHTML = await res.text();
-          document.querySelector("main").innerHTML = asideHTML;
-        } catch (error) {
-          console.error("aside 로드 실패", error);
-        }
-      });
-    </script>
-  </body>
+					const asideHTML = await res.text();
+					document.querySelector("main").innerHTML = asideHTML;
+				} catch (error) {
+					console.error("aside 로드 실패", error);
+				}
+			});
+		</script>
+	</body>
 </html>
