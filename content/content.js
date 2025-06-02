@@ -89,7 +89,7 @@ class Content extends HTMLElement {
       <strong class="sub_nav">RECENTLY PUBLISHED</strong>
 
       <div class="article vscode">
-        <img class="photo" src="/code-synergy/content/img/vscode_img.png" alt="vscode 이미지" />
+        <img class="photo" src="../img/vscode_img.png" alt="vscode 이미지" />
         <div class="content">
           <strong class="sub_title">VSCode</strong>
           <h3 class="main_title">
@@ -102,19 +102,19 @@ class Content extends HTMLElement {
           <span class="read_more">Read more</span>
 
           <div class="footer">
-            <img src="/code-synergy/content/img/heart.png" alt="좋아요" />
-            <img src="/code-synergy/content/img/Vector.png" alt="저장" />
+            <img src="../img/heart.png" alt="좋아요" />
+            <img src="../img/Vector.png" alt="저장" />
             <b>38598 Views</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>437 Likes</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>Nov 8</b>
           </div>
         </div>
       </div>
 
       <div class="article linux">
-        <img class="photo" src="/code-synergy/content/img/linux_img.png" alt="vscode 이미지" />
+        <img class="photo" src="../img/linux_img.png" alt="vscode 이미지" />
         <div class="content">
           <strong class="sub_title">Linux</strong>
           <h3 class="main_title">
@@ -126,19 +126,19 @@ class Content extends HTMLElement {
           >
 
           <div class="footer">
-            <img src="/code-synergy/content/img/heart.png" alt="좋아요" />
-            <img src="/code-synergy/content/img/Vector.png" alt="저장" />
+            <img src="../img/heart.png" alt="좋아요" />
+            <img src="../img/Vector.png" alt="저장" />
             <b>21262 Views</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>158 Likes</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>Nov 21</b>
           </div>
         </div>
       </div>
 
       <div class="article javascript">
-        <img class="photo" src="/code-synergy/content/img/javascript_img.png" alt="vscode 이미지" />
+        <img class="photo" src="../img/javascript_img.png" alt="vscode 이미지" />
         <div class="content">
           <strong class="sub_title">JavaScript</strong>
           <h3 class="main_title">
@@ -150,19 +150,19 @@ class Content extends HTMLElement {
           >
 
           <div class="footer">
-            <img src="/code-synergy/content/img/heart.png" alt="좋아요" />
-            <img src="/code-synergy/content/img/Vector.png" alt="저장" />
+            <img src="../img/heart.png" alt="좋아요" />
+            <img src="../img/Vector.png" alt="저장" />
             <b>7165 Views</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>6 Likes</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>Nov 22</b>
           </div>
         </div>
       </div>
 
       <div class="article web3.0">
-        <img class="photo" src="/code-synergy/content/img/web3.0_img.png" alt="vscode 이미지" />
+        <img class="photo" src="../img/web3.0_img.png" alt="vscode 이미지" />
         <div class="content">
           <strong class="sub_title">Web 3.0</strong>
           <h3 class="main_title">
@@ -174,19 +174,19 @@ class Content extends HTMLElement {
           >
 
           <div class="footer">
-            <img src="/code-synergy/content/img/heart.png" alt="좋아요" />
-            <img src="/code-synergy/content/img/Vector.png" alt="저장" />
+            <img src="../img/heart.png" alt="좋아요" />
+            <img src="../img/Vector.png" alt="저장" />
             <b>2664 Views</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>6 Likes</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>Nov 24</b>
           </div>
         </div>
       </div>
 
       <div class="article metaverse">
-        <img class="photo" src="/code-synergy/content/img/metaverse_img.png" alt="vscode 이미지" />
+        <img class="photo" src="../img/metaverse_img.png" alt="vscode 이미지" />
         <div class="content">
           <strong class="sub_title">Metaverse</strong>
           <h3 class="main_title">The Next Generation of Digital Identity</h3>
@@ -196,12 +196,12 @@ class Content extends HTMLElement {
           >
 
           <div class="footer">
-            <img src="/code-synergy/content/img/heart.png" alt="좋아요" />
-            <img src="/code-synergy/content/img/Vector.png" alt="저장" />
+            <img src="../img/heart.png" alt="좋아요" />
+            <img src="../img/Vector.png" alt="저장" />
             <b>111 Views</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>6 Likes</b>
-            <img src="/code-synergy/content/img/Ellipse 13.png" alt="동그라미" />
+            <img src="../img/Ellipse 13.png" alt="동그라미" />
             <b>Nov 28</b>
           </div>
         </div>
@@ -210,7 +210,7 @@ class Content extends HTMLElement {
         <strong class="see_more_text">See More</strong>
         <img
           class="see_more_icon"
-          src="/code-synergy/content/img/down_icon.png"
+          src="../img/down_icon.png"
           alt="더보기 아이콘"
         />
       </div>
