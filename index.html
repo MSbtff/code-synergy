@@ -6,57 +6,19 @@
     <link rel="stylesheet" href="../footer/footer.css" />
     <link rel="stylesheet" href="../header/header.css" />
 
+
     <title>Document</title>
   </head>
   <body>
     <header></header>
     <nav></nav>
+    <content></content>
     <main></main>
     <footer>
       <div id="footer-container"></div>
     </footer>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", async function () {
-        try {
-          const res = await fetch("../footer/footer.html");
-          if (!res.ok) {
-            throw new Error("오류가 났습니다.");
-          }
+    <script src="/code-synergy/content/content.js"></script>
 
-          const footerHTML = await res.text();
-          document.getElementById("footer-container").innerHTML = footerHTML;
-        } catch (error) {
-          console.error("footer 로드 실패", error);
-        }
-      });
-
-      document.addEventListener("DOMContentLoaded", async function () {
-        try {
-          const res = await fetch("../header/header.html");
-          if (!res.ok) {
-            throw new Error("오류가 났습니다.");
-          }
-
-          const headerHTML = await res.text();
-          document.querySelector("nav").innerHTML = headerHTML;
-        } catch (error) {
-          console.error("header 로드 실패", error);
-        }
-      });
-      document.addEventListener("DOMContentLoaded", async function () {
-        try {
-          const res = await fetch("../aside/index.html");
-          if (!res.ok) {
-            throw new Error("오류가 났습니다.");
-          }
-
-          const asideHTML = await res.text();
-          document.querySelector("main").innerHTML = asideHTML;
-        } catch (error) {
-          console.error("aside 로드 실패", error);
-        }
-      });
-    </script>
   </body>
 </html>

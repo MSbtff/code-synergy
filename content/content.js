@@ -1,12 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/code-synergy/content/content.css" />
-  </head>
-  <body>
+class Content extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({mode: 'open'});
+
+    this.shadowRoot.innerHTML = `
+
+    <style>
+
+ .main_text {
+  margin-left: 212px;
+}
+
+.main_nav {
+  color: #ffd371;
+  font-size: 25px;
+}
+.sub_nav {
+  color: #ffd371;
+  opacity: 0.5;
+  font-size: 25px;
+  margin-left: 56px;
+}
+
+.article {
+  display: flex;
+  gap: 23px;
+  margin-top: 50px;
+}
+
+.article .photo {
+  width: 375px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.article .content {
+  width: 450px;
+  gap: 10px;
+}
+.article .content .sub_title {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.article .content .main_title {
+  font-size: 25px;
+  color: #ffd371;
+}
+.article .content span {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.article .content .read_more {
+  font-size: 15px;
+  color: #c3c4c6;
+}
+.article .content .footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.article .content b {
+  color: #c3c4c6;
+}
+
+.see_more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+  gap: 9px;
+}
+
+.see_more_text {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+
+    
+    </style>
+
+
+<body>
     <div class="main_text">
       <strong class="main_nav">TOP ARTICLES</strong>
       <strong class="sub_nav">RECENTLY PUBLISHED</strong>
@@ -139,4 +216,9 @@
       </div>
     </div>
   </body>
-</html>
+
+    `;
+  }
+}
+
+customElements.define('app-content', Content);
